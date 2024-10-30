@@ -1,0 +1,41 @@
+<computerStore>
+    <storeInfo>
+        <storeName>PC Parts</storeName>
+        <location>
+            <city>Пловдив</city>
+            <address>ул. Александър Стамболийски 5</address>
+        </location>
+        <contactNumber>+359 32 654 789</contactNumber>
+    </storeInfo>
+    <categories>
+        <category>
+            <name>Видео карти</name>
+            <subcategories>
+                <subcategory>
+                    <name>NVIDIA</name>
+                </subcategory>
+                <subcategory>
+                    <name>AMD</name>
+                </subcategory>
+            </subcategories>
+        </category>
+    </categories>
+    <products>
+        <product productID="202">
+            <productName>NVIDIA GeForce RTX 3080</productName>
+            <category>Видео карти</category>
+            <price>1500.00</price>
+            <description>Високопроизводителна видео карта</description>
+            <specifications>
+                <specification>
+                    <key>VRAM</key>
+                    <value>10GB</value>
+                </specification>
+                <specification>
+                    <key>CUDA ядра</key>
+                    <value>8704</value>
+                </specification>
+            </specifications>
+        </product>
+    </products>
+</computerStore>

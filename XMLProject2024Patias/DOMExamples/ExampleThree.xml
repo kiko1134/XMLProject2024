@@ -1,0 +1,48 @@
+<computerStore>
+    <storeInfo>
+        <storeName>Hardware World</storeName>
+        <location>
+            <city>Варна</city>
+            <address>бул. Христо Ботев 100</address>
+        </location>
+        <contactNumber>+359 52 321 654</contactNumber>
+    </storeInfo>
+    <categories>
+        <category>
+            <name>Дънни платки</name>
+            <subcategories>
+                <subcategory>
+                    <name>Intel Compatible</name>
+                </subcategory>
+                <subcategory>
+                    <name>AMD Compatible</name>
+                </subcategory>
+                <subcategory>
+                    <name>Mini ITX</name>
+                </subcategory>
+            </subcategories>
+        </category>
+    </categories>
+    <products>
+        <product productID="303" available="true">
+            <productName>ASUS ROG Strix Z590-E</productName>
+            <category>Дънни платки</category>
+            <price>450.00</price>
+            <description>Дънна платка с поддръжка на Intel процесори от 10-то и 11-то поколение</description>
+            <specifications>
+                <specification>
+                    <key>Чипсет</key>
+                    <value>Z590</value>
+                </specification>
+                <specification>
+                    <key>Формат</key>
+                    <value>ATX</value>
+                </specification>
+                <specification>
+                    <key>RAM слотове</key>
+                    <value>4</value>
+                </specification>
+            </specifications>
+        </product>
+    </products>
+</computerStore>

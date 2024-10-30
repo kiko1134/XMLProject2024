@@ -1,0 +1,48 @@
+<computerStore>
+    <storeInfo>
+        <storeName>Gamer's Paradise</storeName>
+        <location>
+            <city>Бургас</city>
+            <address>ул. Тракия 5</address>
+        </location>
+        <contactNumber>+359 56 777 888</contactNumber>
+    </storeInfo>
+    <categories>
+        <category>
+            <name>Памет</name>
+            <subcategories>
+                <subcategory>
+                    <name>DDR4</name>
+                </subcategory>
+                <subcategory>
+                    <name>DDR5</name>
+                </subcategory>
+                <subcategory>
+                    <name>SODIMM</name>
+                </subcategory>
+            </subcategories>
+        </category>
+    </categories>
+    <products>
+        <product productID="404" available="false">
+            <productName>Corsair Vengeance LPX 16GB</productName>
+            <category>Памет</category>
+            <price>100.00</price>
+            <description>16GB DDR4 RAM памет, идеална за гейминг и натоварвания</description>
+            <specifications>
+                <specification>
+                    <key>Капацитет</key>
+                    <value>16GB</value>
+                </specification>
+                <specification>
+                    <key>Честота</key>
+                    <value>3200MHz</value>
+                </specification>
+                <specification>
+                    <key>Тип</key>
+                    <value>DDR4</value>
+                </specification>
+            </specifications>
+        </product>
+    </products>
+</computerStore>

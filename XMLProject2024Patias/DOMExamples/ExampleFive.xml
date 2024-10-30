@@ -1,0 +1,48 @@
+<computerStore>
+    <storeInfo>
+        <storeName>PC Components</storeName>
+        <location>
+            <city>Русе</city>
+            <address>бул. Свобода 9</address>
+        </location>
+        <contactNumber>+359 82 876 543</contactNumber>
+    </storeInfo>
+    <categories>
+        <category>
+            <name>Захранване</name>
+            <subcategories>
+                <subcategory>
+                    <name>Modular</name>
+                </subcategory>
+                <subcategory>
+                    <name>Semi-Modular</name>
+                </subcategory>
+                <subcategory>
+                    <name>Non-Modular</name>
+                </subcategory>
+            </subcategories>
+        </category>
+    </categories>
+    <products>
+        <product productID="505" available="true">
+            <productName>Cooler Master MWE 650W</productName>
+            <category>Захранване</category>
+            <price>75.00</price>
+            <description>Мощно и надеждно захранване за геймърски системи</description>
+            <specifications>
+                <specification>
+                    <key>Мощност</key>
+                    <value>650W</value>
+                </specification>
+                <specification>
+                    <key>Тип</key>
+                    <value>Modular</value>
+                </specification>
+                <specification>
+                    <key>Ефективност</key>
+                    <value>80+ Bronze</value>
+                </specification>
+            </specifications>
+        </product>
+    </products>
+</computerStore>

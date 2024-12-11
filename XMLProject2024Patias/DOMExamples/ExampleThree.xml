@@ -24,7 +24,7 @@
         </category>
     </categories>
     <products>
-        <product productID="303" available="true">
+        <product productID="303">
             <productName>ASUS ROG Strix Z590-E</productName>
             <category>Дънни платки</category>
             <price>450.00</price>

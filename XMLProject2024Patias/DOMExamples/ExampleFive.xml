@@ -24,7 +24,7 @@
         </category>
     </categories>
     <products>
-        <product productID="505" available="true">
+        <product productID="505">
             <productName>Cooler Master MWE 650W</productName>
             <category>Захранване</category>
             <price>75.00</price>

@@ -21,7 +21,7 @@
         </category>
     </categories>
     <products>
-        <product productID="202">
+        <product>
             <productName>NVIDIA GeForce RTX 3080</productName>
             <category>Видео карти</category>
             <price>1500.00</price>

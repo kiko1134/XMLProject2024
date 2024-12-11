@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
     <!-- Главен елемент за магазина -->
     <xs:element name="computerStore">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="storeInfo" type="StoreInfoType"/>
-                <xs:element name="categories" type="CategoriesType"/>
+                <xs:element name="partCategories" type="CategoriesType"/>
                 <xs:element name="products" type="ProductsType" maxOccurs="unbounded"/>
             </xs:sequence>
         </xs:complexType>
@@ -29,14 +28,14 @@
         </xs:sequence>
     </xs:complexType>
 
-    <!-- Категории с вложени подкатегории -->
+    <!-- Категории части -->
     <xs:complexType name="CategoriesType">
         <xs:sequence>
             <xs:element name="category" type="CategoryType" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 
-    <!-- Категория и подкатегория -->
+    <!-- Отделна Категория и подкатегория, които в случая са различните марки части-->
     <xs:complexType name="CategoryType">
         <xs:sequence>
             <xs:element name="name" type="xs:string"/>
@@ -44,14 +43,14 @@
         </xs:sequence>
     </xs:complexType>
 
-    <!-- Подкатегории в категорията -->
+    <!-- Подкатегориите -->
     <xs:complexType name="SubcategoriesType">
         <xs:sequence>
             <xs:element name="subcategory" type="SubcategoryType" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 
-    <!-- Подкатегория -->
+    <!-- Подкатегория, която в случая е марката на определената част -->
     <xs:complexType name="SubcategoryType">
         <xs:sequence>
             <xs:element name="name" type="xs:string"/>
@@ -75,7 +74,6 @@
             <xs:element name="specifications" type="SpecificationsType"/>
         </xs:sequence>
         <xs:attribute name="productID" type="xs:string" use="required"/>
-        <xs:attribute name="available" type="xs:boolean" use="optional"/>
     </xs:complexType>
 
     <!-- Спецификации на продукт -->

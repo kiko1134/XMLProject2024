@@ -24,7 +24,7 @@
         </category>
     </categories>
     <products>
-        <product productID="404" available="false">
+        <product productID="404">
             <productName>Corsair Vengeance LPX 16GB</productName>
             <category>Памет</category>
             <price>100.00</price>

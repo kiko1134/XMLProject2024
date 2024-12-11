@@ -1,14 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Display XML Data</title>
+    <title>Генериране на XML</title>
+    <script src="./domRenderer.js"></script>
+    <script src="../libs/vkbeautify/vkbeautify.js"></script>
+
 </head>
 <body>
-<h1>XML Data</h1>
-<div id="xmlDataContainer"></div>
+<h1>Генериране на XML за компютърен магазин</h1>
+<button onclick="generateXML()">Генерирай XML</button>
+<pre id="xmlDataContainer"></pre>
+<script>
+    function generateXML() {
+        const doc = createXMLDocument();
+        const serializer = new XMLSerializer();
+        const xmlString = serializer.serializeToString(doc);
 
-<script src="./domRenderer.js"></script>
+        document.getElementById('xmlDataContainer').textContent = vkbeautify.xml(xmlString);
+    }
+</script>
 </body>
 </html>

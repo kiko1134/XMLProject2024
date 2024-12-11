@@ -7,7 +7,7 @@
         </location>
         <contactNumber>+359 2 123 456</contactNumber>
     </storeInfo>
-    <categories>
+    <partCategories>
         <category>
             <name>Процесори</name>
             <subcategories>
@@ -19,9 +19,9 @@
                 </subcategory>
             </subcategories>
         </category>
-    </categories>
+    </partCategories>
     <products>
-        <product productID="101" available="true">
+        <product productID="101">
             <productName>Intel Core i9</productName>
             <category>Процесори</category>
             <price>999.99</price>

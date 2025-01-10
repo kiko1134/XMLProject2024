@@ -1,4 +1,4 @@
-<computerStore>
+<computerStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../XMLSchema/schema.xsd">
     <storeInfo>
         <storeName>Gamer's Paradise</storeName>
         <location>
@@ -7,7 +7,7 @@
         </location>
         <contactNumber>+359 56 777 888</contactNumber>
     </storeInfo>
-    <categories>
+    <partCategories>
         <category>
             <name>Памет</name>
             <subcategories>
@@ -22,9 +22,23 @@
                 </subcategory>
             </subcategories>
         </category>
-    </categories>
+        <category>
+            <name>Съхранение</name>
+            <subcategories>
+                <subcategory>
+                    <name>SSD</name>
+                </subcategory>
+                <subcategory>
+                    <name>HDD</name>
+                </subcategory>
+                <subcategory>
+                    <name>NVMe</name>
+                </subcategory>
+            </subcategories>
+        </category>
+    </partCategories>
     <products>
-        <product productID="404">
+        <product productID="p1">
             <productName>Corsair Vengeance LPX 16GB</productName>
             <category>Памет</category>
             <price>100.00</price>
@@ -37,6 +51,106 @@
                 <specification>
                     <key>Честота</key>
                     <value>3200MHz</value>
+                </specification>
+                <specification>
+                    <key>Тип</key>
+                    <value>DDR4</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="p2">
+            <productName>Kingston HyperX Fury 8GB</productName>
+            <category>Памет</category>
+            <price>50.00</price>
+            <description>8GB DDR4 RAM памет за скорост и ефективност</description>
+            <specifications>
+                <specification>
+                    <key>Капацитет</key>
+                    <value>8GB</value>
+                </specification>
+                <specification>
+                    <key>Честота</key>
+                    <value>2666MHz</value>
+                </specification>
+                <specification>
+                    <key>Тип</key>
+                    <value>DDR4</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="p3">
+            <productName>Samsung 970 EVO SSD 1TB</productName>
+            <category>Съхранение</category>
+            <price>199.99</price>
+            <description>SSD с висока производителност и 1TB капацитет</description>
+            <specifications>
+                <specification>
+                    <key>Капацитет</key>
+                    <value>1TB</value>
+                </specification>
+                <specification>
+                    <key>Интерфейс</key>
+                    <value>NVMe</value>
+                </specification>
+                <specification>
+                    <key>Форм-фактор</key>
+                    <value>M.2</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="p4">
+            <productName>AMD Ryzen 9 5900X</productName>
+            <category>Процесори</category>
+            <price>549.99</price>
+            <description>Мощен процесор от ново поколение с 12 ядра</description>
+            <specifications>
+                <specification>
+                    <key>Ядра</key>
+                    <value>12</value>
+                </specification>
+                <specification>
+                    <key>Нишки</key>
+                    <value>24</value>
+                </specification>
+                <specification>
+                    <key>Базова честота</key>
+                    <value>3.7 GHz</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="p5">
+            <productName>Intel 660p SSD 2TB</productName>
+            <category>Съхранение</category>
+            <price>229.99</price>
+            <description>SSD с отлична цена за 2TB капацитет</description>
+            <specifications>
+                <specification>
+                    <key>Капацитет</key>
+                    <value>2TB</value>
+                </specification>
+                <specification>
+                    <key>Интерфейс</key>
+                    <value>PCIe</value>
+                </specification>
+                <specification>
+                    <key>Форм-фактор</key>
+                    <value>M.2</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="p6">
+            <productName>Crucial Ballistix 32GB</productName>
+            <category>Памет</category>
+            <price>150.00</price>
+            <description>32GB DDR4 RAM памет, оптимизирана за овърклокинг</description>
+            <specifications>
+                <specification>
+                    <key>Капацитет</key>
+                    <value>32GB</value>
+                </specification>
+                <specification>
+                    <key>Честота</key>
+                    <value>3600MHz</value>
                 </specification>
                 <specification>
                     <key>Тип</key>

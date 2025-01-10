@@ -1,4 +1,4 @@
-<computerStore>
+<computerStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../XMLSchema/schema.xsd">
     <storeInfo>
         <storeName>Hardware World</storeName>
         <location>
@@ -7,7 +7,7 @@
         </location>
         <contactNumber>+359 52 321 654</contactNumber>
     </storeInfo>
-    <categories>
+    <partCategories>
         <category>
             <name>Дънни платки</name>
             <subcategories>
@@ -22,9 +22,9 @@
                 </subcategory>
             </subcategories>
         </category>
-    </categories>
+    </partCategories>
     <products>
-        <product productID="303">
+        <product productID="p1">
             <productName>ASUS ROG Strix Z590-E</productName>
             <category>Дънни платки</category>
             <price>450.00</price>
@@ -37,6 +37,126 @@
                 <specification>
                     <key>Формат</key>
                     <value>ATX</value>
+                </specification>
+                <specification>
+                    <key>RAM слотове</key>
+                    <value>4</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="p2">
+            <productName>MSI MPG Z490 Gaming Edge</productName>
+            <category>Дънни платки</category>
+            <price>350.00</price>
+            <description>Подходяща за гейминг ентусиасти, съвместима с Intel процесори от 10-то поколение</description>
+            <specifications>
+                <specification>
+                    <key>Чипсет</key>
+                    <value>Z490</value>
+                </specification>
+                <specification>
+                    <key>Формат</key>
+                    <value>ATX</value>
+                </specification>
+                <specification>
+                    <key>RAM слотове</key>
+                    <value>4</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="p3">
+            <productName>Gigabyte B550 Aorus Master</productName>
+            <category>Дънни платки</category>
+            <price>330.00</price>
+            <description>Висока производителност и стабилност за AMD процесори</description>
+            <specifications>
+                <specification>
+                    <key>Чипсет</key>
+                    <value>B550</value>
+                </specification>
+                <specification>
+                    <key>Формат</key>
+                    <value>ATX</value>
+                </specification>
+                <specification>
+                    <key>RAM слотове</key>
+                    <value>4</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="p4">
+            <productName>ASUS TUF Gaming X570-Plus</productName>
+            <category>Дънни платки</category>
+            <price>270.00</price>
+            <description>Надеждна дънна платка с широки възможности за разширение, съвместима с AMD процесори</description>
+            <specifications>
+                <specification>
+                    <key>Чипсет</key>
+                    <value>X570</value>
+                </specification>
+                <specification>
+                    <key>Формат</key>
+                    <value>ATX</value>
+                </specification>
+                <specification>
+                    <key>RAM слотове</key>
+                    <value>4</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="p5">
+            <productName>ASRock B450M Steel Legend</productName>
+            <category>Дънни платки</category>
+            <price>120.00</price>
+            <description>Бюджетен вариант с добри характеристики за средно натоварени системи, съвместим с AMD процесори</description>
+            <specifications>
+                <specification>
+                    <key>Чипсет</key>
+                    <value>B450</value>
+                </specification>
+                <specification>
+                    <key>Формат</key>
+                    <value>Micro ATX</value>
+                </specification>
+                <specification>
+                    <key>RAM слотове</key>
+                    <value>4</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="p6">
+            <productName>MSI MEG X570 Unify</productName>
+            <category>Дънни платки</category>
+            <price>400.00</price>
+            <description>Изключително производителна дънна платка за ентусиасти, съвместима с AMD процесори</description>
+            <specifications>
+                <specification>
+                    <key>Чипсет</key>
+                    <value>X570</value>
+                </specification>
+                <specification>
+                    <key>Формат</key>
+                    <value>ATX</value>
+                </specification>
+                <specification>
+                    <key>RAM слотове</key>
+                    <value>4</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="p7">
+            <productName>MSI MAG B460M Mortar WiFi</productName>
+            <category>Дънни платки</category>
+            <price>210.00</price>
+            <description>Добра избор за създаване на компактни системи, съвместима с Intel процесори от 10-то поколение</description>
+            <specifications>
+                <specification>
+                    <key>Чипсет</key>
+                    <value>B460</value>
+                </specification>
+                <specification>
+                    <key>Формат</key>
+                    <value>Micro ATX</value>
                 </specification>
                 <specification>
                     <key>RAM слотове</key>

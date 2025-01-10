@@ -1,4 +1,7 @@
-<computerStore>
+<computerStore
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../XMLSchema/schema.xsd"
+>
     <storeInfo>
         <storeName>PC Components</storeName>
         <location>
@@ -7,7 +10,7 @@
         </location>
         <contactNumber>+359 82 876 543</contactNumber>
     </storeInfo>
-    <categories>
+    <partCategories>
         <category>
             <name>Захранване</name>
             <subcategories>
@@ -22,9 +25,9 @@
                 </subcategory>
             </subcategories>
         </category>
-    </categories>
+    </partCategories>
     <products>
-        <product productID="505">
+        <product productID="p1">
             <productName>Cooler Master MWE 650W</productName>
             <category>Захранване</category>
             <price>75.00</price>

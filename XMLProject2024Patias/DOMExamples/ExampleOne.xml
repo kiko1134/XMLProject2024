@@ -1,4 +1,8 @@
-<computerStore>
+<?xml-stylesheet type = html/xml" src = "../XSLT/ExampleOneToHTML.xslt"?>
+<computerStore
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../XMLSchema/schema.xsd"
+>
     <storeInfo>
         <storeName>Tech Store</storeName>
         <location>
@@ -21,7 +25,7 @@
         </category>
     </partCategories>
     <products>
-        <product productID="101">
+        <product productID="p1">
             <productName>Intel Core i9</productName>
             <category>Процесори</category>
             <price>999.99</price>
@@ -34,6 +38,38 @@
                 <specification>
                     <key>Ядра</key>
                     <value>8</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="p2">
+            <productName>Intel Core i7</productName>
+            <category>Процесори</category>
+            <price>899.99</price>
+            <description>Средно мощен процесор за гейминг</description>
+            <specifications>
+                <specification>
+                    <key>Честота</key>
+                    <value>3.1GHz</value>
+                </specification>
+                <specification>
+                    <key>Ядра</key>
+                    <value>6</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="p3">
+            <productName>Intel Core i5</productName>
+            <category>Процесори</category>
+            <price>599.99</price>
+            <description> Процесор за гейминг</description>
+            <specifications>
+                <specification>
+                    <key>Честота</key>
+                    <value>2.6GHz</value>
+                </specification>
+                <specification>
+                    <key>Ядра</key>
+                    <value>4</value>
                 </specification>
             </specifications>
         </product>

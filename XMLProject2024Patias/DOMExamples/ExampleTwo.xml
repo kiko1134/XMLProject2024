@@ -1,4 +1,4 @@
-<computerStore>
+<computerStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../XMLSchema/schema.xsd">
     <storeInfo>
         <storeName>PC Parts</storeName>
         <location>
@@ -7,7 +7,7 @@
         </location>
         <contactNumber>+359 32 654 789</contactNumber>
     </storeInfo>
-    <categories>
+    <partCategories>
         <category>
             <name>Видео карти</name>
             <subcategories>
@@ -19,9 +19,9 @@
                 </subcategory>
             </subcategories>
         </category>
-    </categories>
+    </partCategories>
     <products>
-        <product>
+        <product productID="p1">
             <productName>NVIDIA GeForce RTX 3080</productName>
             <category>Видео карти</category>
             <price>1500.00</price>
@@ -34,6 +34,86 @@
                 <specification>
                     <key>CUDA ядра</key>
                     <value>8704</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="p2">
+            <productName>NVIDIA GeForce RTX 3070</productName>
+            <category>Видео карти</category>
+            <price>1200.00</price>
+            <description>Идеална за гейминг с висока резолюция</description>
+            <specifications>
+                <specification>
+                    <key>VRAM</key>
+                    <value>8GB</value>
+                </specification>
+                <specification>
+                    <key>CUDA ядра</key>
+                    <value>5888</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="p3">
+            <productName>NVIDIA GeForce RTX 3060 Ti</productName>
+            <category>Видео карти</category>
+            <price>980.00</price>
+            <description>С отлично съотношение цена-производителност</description>
+            <specifications>
+                <specification>
+                    <key>VRAM</key>
+                    <value>8GB</value>
+                </specification>
+                <specification>
+                    <key>CUDA ядра</key>
+                    <value>4864</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="p4">
+            <productName>AMD Radeon RX 6800 XT</productName>
+            <category>Видео карти</category>
+            <price>1100.00</price>
+            <description>Силна конкуренция в сегмента на висок клас видеокарти</description>
+            <specifications>
+                <specification>
+                    <key>VRAM</key>
+                    <value>16GB</value>
+                </specification>
+                <specification>
+                    <key>Потокови процесори</key>
+                    <value>4608</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="p5">
+            <productName>AMD Radeon RX 6700 XT</productName>
+            <category>Видео карти</category>
+            <price>880.00</price>
+            <description>Отличен избор за геймъри, търсещи качество на достъпна цена</description>
+            <specifications>
+                <specification>
+                    <key>VRAM</key>
+                    <value>12GB</value>
+                </specification>
+                <specification>
+                    <key>Потокови процесори</key>
+                    <value>2560</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="p6">
+            <productName>AMD Radeon RX 6900 XT</productName>
+            <category>Видео карти</category>
+            <price>1600.00</price>
+            <description>Върхова производителност за ентусиасти и професионалисти</description>
+            <specifications>
+                <specification>
+                    <key>VRAM</key>
+                    <value>16GB</value>
+                </specification>
+                <specification>
+                    <key>Потокови процесори</key>
+                    <value>5120</value>
                 </specification>
             </specifications>
         </product>

@@ -1,0 +1,44 @@
+<computerStore
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../XMLSchema/schema.xsd"
+>
+	<storeInfo>
+		<storeName>Tech Store</storeName>
+		<location>
+			<city>София</city>
+			<address>ул. Иван Вазов 23</address>
+		</location>
+		<contactNumber>+359 2 123 456</contactNumber>
+	</storeInfo>
+	<partCategories>
+		<category>
+			<name>Процесори</name>
+			<subcategories>
+				<subcategory>
+					<name>Intel</name>
+				</subcategory>
+				<subcategory>
+					<name>AMD</name>
+				</subcategory>
+			</subcategories>
+		</category>
+	</partCategories>
+	<products>
+		<product productID="p101">
+			<productName>Intel Core i9</productName>
+			<category>Процесори</category>
+			<price>999.99</price>
+			<description>Мощен процесор за гейминг</description>
+			<specifications>
+				<specification>
+					<key>Честота</key>
+					<value>3.6GHz</value>
+				</specification>
+				<specification>
+					<key>Ядра</key>
+					<value>8</value>
+				</specification>
+			</specifications>
+		</product>
+	</products>
+</computerStore>

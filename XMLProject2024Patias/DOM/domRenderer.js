@@ -19,7 +19,7 @@
 //
 // function displayStoreInfo(xmlDoc) {
 //     const storeInfo = xmlDoc.getElementsByTagName('storeInfo')[0];
-//     const storeName = storeInfo.getElementsByTagName('storeName')[0].textContent;
+//     const storeName = storeInfo.getyarn astElementsByTagName('storeName')[0].textContent;
 //     const city = storeInfo.getElementsByTagName('city')[0].textContent;
 //     const address = storeInfo.getElementsByTagName('address')[0].textContent;
 //     const contactNumber = storeInfo.getElementsByTagName('contactNumber')[0].textContent;
@@ -137,7 +137,7 @@ function createXMLDocument() {
     let products = doc.createElement("products");
 
     let product = doc.createElement("product");
-    product.setAttribute("productID", "101");
+    product.setAttribute("productID", "p101");
 
     let productName = doc.createElement("productName");
     productName.textContent = "Intel Core i9";

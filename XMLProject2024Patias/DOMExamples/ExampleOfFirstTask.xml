@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<computerStore
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../XMLSchema/schema.xsd"
+>
+    <storeInfo>
+        <storeName>ТехноЛюбимец</storeName>
+        <location>
+            <city>София</city>
+            <address>ул. Цариградско шосе 120</address>
+        </location>
+        <contactNumber>+359 88 888 8888</contactNumber>
+    </storeInfo>
+    <partCategories>
+        <category>
+            <name>Процесори</name>
+            <subcategories>
+                <subcategory>
+                    <name>Intel</name>
+                </subcategory>
+                <subcategory>
+                    <name>AMD</name>
+                </subcategory>
+            </subcategories>
+        </category>
+        <category>
+            <name>Видеокарти</name>
+            <subcategories>
+                <subcategory>
+                    <name>NVIDIA</name>
+                </subcategory>
+                <subcategory>
+                    <name>AMD</name>
+                </subcategory>
+            </subcategories>
+        </category>
+    </partCategories>
+    <products>
+        <product productID="P001">
+            <productName>Intel Core i9-9900K</productName>
+            <category>Процесори</category>
+            <price>799.99</price>
+            <description>Високопроизводителен процесор от 9-то поколение</description>
+            <specifications>
+                <specification>
+                    <key>Ядра</key>
+                    <value>8</value>
+                </specification>
+                <specification>
+                    <key>Нишки</key>
+                    <value>16</value>
+                </specification>
+            </specifications>
+        </product>
+        <product productID="P002">
+            <productName>NVIDIA GeForce RTX 3080</productName>
+            <category>Видеокарти</category>
+            <price>1499.99</price>
+            <description>Графична карта за гейминг и професионална употреба</description>
+            <specifications>
+                <specification>
+                    <key>Памет</key>
+                    <value>10GB GDDR6X</value>
+                </specification>
+                <specification>
+                    <key>Технология на изработка</key>
+                    <value>8nm</value>
+                </specification>
+            </specifications>
+        </product>
+    </products>
+</computerStore>
